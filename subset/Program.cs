@@ -20,7 +20,7 @@ namespace subset
             ListImager(pool);
             Console.ReadLine();
         }
-        //jopa
+
         static void dublicates(List<string[]> pool)
         {
             for (int i = 0; i < pool.Count - 1; i++)
