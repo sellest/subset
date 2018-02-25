@@ -12,7 +12,7 @@ namespace subset
         static void Main(string[] args)
         {
             var pool = new List<string[]>();
-            string[] source = { "1", "2", "3", "chlen"};
+            string[] source = { "1", "2", "3"};
             Imager(source);
             subset(source, pool);             
             dublicates(pool);
@@ -20,7 +20,7 @@ namespace subset
             ListImager(pool);
             Console.ReadLine();
         }
-
+        //jopa
         static void dublicates(List<string[]> pool)
         {
             for (int i = 0; i < pool.Count - 1; i++)
